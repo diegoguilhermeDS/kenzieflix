@@ -1,0 +1,126 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121114;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .logo {
+    margin: 12px auto;
+}
+
+.container .text-logo {
+
+}
+
+.container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #EFEFF0;
+    font-size: 32px;
+    padding-top: 28px;
+}
+
+
+
+
+.menu .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu ul {
+    max-width: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.menu li {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu li:hover p{
+    color: #fff;
+}
+
+.menu li:hover .icone-perfil {
+    border-color: #fff;
+}
+
+.menu li:hover .icone-perfil .image {
+    opacity: 1;
+}
+
+
+.menu li .icone-perfil {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+
+
+.menu li .icone-perfil img {
+    border-radius: 8px;
+}
+
+.menu li .adc-perfil {
+    background-color: #1E1D20;
+}
+
+.menu li .icone-perfil .image {
+    opacity: 0.5;
+}
+
+.menu li p {
+    display: flex;
+    color: #a2a2a3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.menu .menu-container button {
+    margin-top: 20px;
+    background-color: #121114;
+    color: #e1e1e9;
+    border: 1px solid #fff;
+    padding: 15px 64px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.menu .menu-container button:hover {
+    background-color: #fff;
+    color: #121114;
+    cursor: pointer;
+}
